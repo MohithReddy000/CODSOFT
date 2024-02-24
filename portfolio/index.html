@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d4c3db60f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="h"><span>M</span>ohith</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello,<br>I'm <span>Mohith</span> Reddy</h1><h1>Web Developer</h1><br><p id="p2">Welcome to Mohith's Web Developer Portfolio!.<br>
+                This is my official Portfolio Website to showcase <br> all my Details and Work exiprins Web development.</p>
+                    
+                <a href="html 1.pdf" download class="btn">Download Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="download1.jpg" alt="">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="size"><i class="fa-solid fa-angles-right"></i> I'm a Crazy Full Stack Web Developer Who Want to Exploer Every Tech.</p>
+                    <p class="size"><i class="fa-solid fa-angles-right"></i> A passionate Full Stack Web Developer having an experience of buliding Web Application with HTML5/CSS/JavaScript/ReactJs/NodeJs and other cool libaries and Frameworks.</p><br>
+                    <p class="size"><i class="fa-solid fa-angles-right"></i> Develop highly interactive Front end/user interface for web Application</p><br>
+                    <p class="size"><i class="fa-solid fa-angles-right"></i> Integration of third party services such as Firebase.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">SKILLS</h1>
+            <div class="skills-1">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Front-End Development:</h1><br><br>
+                    <p>Structure: HTML5.</p><br><br>
+                    <p>Styling: CSS.</p><br><br>
+                    <p>Interactive: JavaScript.<br></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h1>Back-End Development:</h1><br><br>
+                    <p>Programming Languages: Python, R, JavaScript, PHP.</p><br><br>
+                    <p>Server-Side Frameworks: Node.js, Django, Ruby.</p><br><br>
+                    <p>Database Management: MySQL, MongoDB.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h1>General Development Skills:</h1><br><br>
+                    <p>Version Control: Git.</p><br><br>
+                    <p>API (Application Programming Interface) Integration.</p><br><br>
+                    <p>Deployment/Hosting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="calculator.jpg">
+                    <div class="layer">
+                        <h3>Caluclator</h3>
+                        <p>The calculator project aims to create a user-friendly application that performs basic arithmetic operation.</p>
+                        <a href="https://mohithreddycalculator.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="port.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>bvbsur/uaebrbribanr</p>
+                        <a href="https://mohithreddyportfolio.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="download1.jpg">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>bvbsur/uaebrbribanr</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>smohithreddy000@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9949913299</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/singareddy.mohith" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mohith__0001/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/MOHITHREDDY000" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/singareddy-mohith-reddy-985983258/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mohith.</p>
+    </div>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0"
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
