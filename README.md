@@ -1,1 +1,1 @@
-Portfolio Demo: https://mohithreddyportfolio.netlify.app
+Portfolio Demo: https://mohithreddyportfolio.netlify.app/
